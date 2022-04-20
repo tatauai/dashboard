@@ -21,7 +21,7 @@
       <div class="menu">
         <ul>
           <li><a href="/index.html"><i class="fa-solid fa-house"></i> Home</a></li>
-          <li><a href="views/gerenciarIndicadores.html"><i class="fa-solid fa-pen-to-square"></i> Gerenciar
+          <li><a href="/views/gerenciarIndicadores.html"><i class="fa-solid fa-pen-to-square"></i> Gerenciar
               indicadores</a></li>
           <li><a href=""><i class="fa-solid fa-user"></i> Quem Somos</a></li>
           <li><a href=""><i class="fa-solid fa-at"></i> Fale Conosco</a></li>
@@ -34,8 +34,9 @@
       </header>
       <div class="main-content">
         <div class="panel-row">
-          <button class="panel panel-50">Incluir indicador</button>
-          <button class="panel panel-50">Vizualizar indicadores</button>
+          <button class="panel panel-50" a-view="incluirIndicador" a-folder="indicador">Incluir indicador</button>
+          <button class="panel panel-50" a-view="vizualizarIndicadores" a-folder="indicador">Vizualizar
+            indicadores</button>
 
         </div>
         <div class="content" id="ajax-content"></div>
